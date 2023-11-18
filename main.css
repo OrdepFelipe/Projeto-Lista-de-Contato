@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header svg {
+    width: 35px;
+    height: 35px;
+    margin: 8px;
+}
+
+form{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+form input,
+form button{
+    margin-right: 8px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+table{
+width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td{
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
