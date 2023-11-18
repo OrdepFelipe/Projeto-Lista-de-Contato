@@ -13,10 +13,6 @@ function adicionaLinhas(){
     const nome = document.getElementById('inputNome');
     const numero = document.getElementById('inputNumero');
 
-
-    console.log(nomeContato);
-    console.log(numTelefone);
-
     let linha = '<tr>';
     linha += `<td class="apagar">${nome.value}</td>`;
     linha += `<td class="apagar">${numero.value}</td>`;
